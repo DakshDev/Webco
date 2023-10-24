@@ -1,0 +1,153 @@
+:root{
+    --pri-color: #0D2735;
+    --sec-color: #85B6CF;
+    --sec-2-color: #1e4356;
+}
+
+
+/* ============================================= */
+/* Row 1 */
+/* ============================================= */
+#color-change{
+    color: var(--sec-color) !important;
+}
+.remove-color{
+    color: #fff !important;
+}
+
+/* ============================================= */
+/* Row 2 */
+/* ============================================= */
+#row-2{
+    background-image: url('https://images.unsplash.com/photo-1571171637578-41bc2dd41cd2?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1470&q=80') !important;
+}
+#row-2 #col-1 #center-side span a{
+    padding: 5px 20px;
+    border-radius: 20px;
+    border: 2px solid var(--sec-color);
+    color: #fff;
+    transition: all ease-in-out 0.2s
+}
+#row-2 #col-1 #center-side span a:hover{
+    background: var(--sec-color);
+}
+
+
+
+/* =========================== */
+/* Container 2*/
+/* =========================== */
+/* Container 2 Service Content */
+#container-2{
+    padding: 0px;
+}
+#container-2 #service-main-box{
+    padding: 50px 0px;
+    overflow: hidden;
+}
+/* Container 2 Service Content Row */
+#container-2 #service-main-box #service-row-1,
+#container-2 #service-main-box #service-row-2,
+#container-2 #service-main-box #service-row-3,
+#container-2 #service-main-box #service-row-4,
+#container-2 #service-main-box #service-row-5{
+    background: #F3F8FA;
+    margin: 20px 0px;
+    padding: 10px;
+    position: relative;
+}
+/* Colume 1 */
+#container-2 #service-main-box #service-row-1>div:nth-child(1),
+#container-2 #service-main-box #service-row-2>div:nth-child(1),
+#container-2 #service-main-box #service-row-3>div:nth-child(1),
+#container-2 #service-main-box #service-row-4>div:nth-child(1),
+#container-2 #service-main-box #service-row-5>div:nth-child(1){
+    display: grid;
+    align-items: center;
+    align-content: center;
+}
+.h3style{
+    font-weight: bold;
+    color: var(--sec-2-color) !important;
+    width: 100%;
+}
+
+/* Colum 2 Position Change */
+#container-2 #service-main-box #service-row-2>div:nth-child(1),
+#container-2 #service-main-box #service-row-4>div:nth-child(1){
+    position: absolute;
+    right: 0px;
+    height: 100%;
+}
+@media screen and (max-width: 768px){
+    /* Container 2 Service Content Row */
+    #container-2 #service-main-box #service-row-1,
+    #container-2 #service-main-box #service-row-2,
+    #container-2 #service-main-box #service-row-3,
+    #container-2 #service-main-box #service-row-4,
+    #container-2 #service-main-box #service-row-5{
+        margin: 20px 0px;
+        padding: 10px 10px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        align-content: center;
+        gap: 10px 0px;
+    }
+    /* Colume 1 */
+    #container-2 #service-main-box #service-row-1>div:nth-child(1),
+    #container-2 #service-main-box #service-row-2>div:nth-child(1),
+    #container-2 #service-main-box #service-row-3>div:nth-child(1),
+    #container-2 #service-main-box #service-row-4>div:nth-child(1),
+    #container-2 #service-main-box #service-row-5>div:nth-child(1){
+        display: grid;
+        align-items: center;
+        align-content: center;
+        text-align: center;
+        padding: 20px 0px;
+    }
+    /* Position Change */
+    #container-2 #service-main-box #service-row-2>div:nth-child(1),
+    #container-2 #service-main-box #service-row-4>div:nth-child(1){
+        position: relative;
+        left: 0px;
+        height: 100%;
+    }
+}
+
+
+
+/* =========================== */
+/* Container 3*/
+/* =========================== */
+#container-3{
+    padding: 50px 0px;
+    overflow: hidden;
+}
+/* Container 3 Why we choose box */
+#container-3 #why-choose-us-box{
+    display: grid;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+    grid-gap: 30px 0px;
+    padding: 20px;
+    background: #F3F8FA;
+}
+#container-3 #why-choose-us-box h2{
+    color: var(--pri-color);
+    font-weight: 600;
+    text-align: center;
+}
+#container-3 #why-choose-us-box ol{
+    display: grid;
+    align-items: center;
+    align-content: center;
+    grid-gap: 15px 0px;
+}
+#container-3 #why-choose-us-box ol li{
+    color: var(--sec-2-color);
+}
+#container-3 #why-choose-us-box ol li span{
+    color: var(--pri-color);
+}

@@ -1,0 +1,256 @@
+:root{
+    --pri-color: #0D2735;
+    --sec-color: #85B6CF;
+    --sec-2-color: #1e4356;
+}
+
+/* Row 1 link color change */
+.remove-color{
+    color: #fff !important;
+}
+.remove-color:hover{
+    color: var(--sec-color) !important;
+}
+#color-change{
+    color: var(--sec-color) !important;
+}
+
+/* Row 2 backgrounf img change */
+#row-2{
+    background-image: url('https://images.pexels.com/photos/6633920/pexels-photo-6633920.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1') !important;
+}
+
+/* Row 3 */
+#portfolio-row{
+    padding: 100px 20px;
+    overflow: hidden;
+}
+/* Row 3 Columns */
+#portfolio-row > #portfolio-col-1,
+#portfolio-row > #portfolio-col-2,
+#portfolio-row > #portfolio-col-3,
+#portfolio-row > #portfolio-col-4,
+#portfolio-row > #portfolio-col-5,
+#portfolio-row > #portfolio-col-6,
+#portfolio-row > #portfolio-col-7,
+#portfolio-row > #portfolio-col-8,
+#portfolio-row > #portfolio-col-9{
+    display: grid;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+    padding: 10px;
+}
+#portfolio-row > #portfolio-col-1,
+#portfolio-row > #portfolio-col-4,
+#portfolio-row > #portfolio-col-7{
+    justify-content: flex-end;
+}
+#portfolio-row > #portfolio-col-3,
+#portfolio-row > #portfolio-col-6,
+#portfolio-row > #portfolio-col-9{
+    justify-content: flex-start;
+}
+/* Portfolio card */
+#portfolio-row > #portfolio-col-1 > .portfolio-card,
+#portfolio-row > #portfolio-col-2 > .portfolio-card,
+#portfolio-row > #portfolio-col-3 > .portfolio-card,
+#portfolio-row > #portfolio-col-4 > .portfolio-card,
+#portfolio-row > #portfolio-col-5 > .portfolio-card,
+#portfolio-row > #portfolio-col-6 > .portfolio-card,
+#portfolio-row > #portfolio-col-7 > .portfolio-card,
+#portfolio-row > #portfolio-col-8 > .portfolio-card,
+#portfolio-row > #portfolio-col-9 > .portfolio-card{
+    width: 350px;
+    height: 250px;
+    border-radius: 5px;
+    overflow: hidden;
+    position: relative;
+    box-shadow: 0px 0px 20px 1px lightgray;
+}
+
+/* Portfolio card Images */
+/* Without Hover */
+#portfolio-row > #portfolio-col-1 > .portfolio-card > img,
+#portfolio-row > #portfolio-col-2 > .portfolio-card > img,
+#portfolio-row > #portfolio-col-3 > .portfolio-card > img,
+#portfolio-row > #portfolio-col-4 > .portfolio-card > img,
+#portfolio-row > #portfolio-col-5 > .portfolio-card > img,
+#portfolio-row > #portfolio-col-6 > .portfolio-card > img,
+#portfolio-row > #portfolio-col-7 > .portfolio-card > img,
+#portfolio-row > #portfolio-col-8 > .portfolio-card > img,
+#portfolio-row > #portfolio-col-9 > .portfolio-card > img{
+    transition: all ease-in-out 0.3s;
+}
+/*HOVER*/
+#portfolio-row > #portfolio-col-1 > .portfolio-card:hover > img,
+#portfolio-row > #portfolio-col-2 > .portfolio-card:hover > img,
+#portfolio-row > #portfolio-col-3 > .portfolio-card:hover > img,
+#portfolio-row > #portfolio-col-4 > .portfolio-card:hover > img,
+#portfolio-row > #portfolio-col-5 > .portfolio-card:hover > img,
+#portfolio-row > #portfolio-col-6 > .portfolio-card:hover > img,
+#portfolio-row > #portfolio-col-7 > .portfolio-card:hover > img,
+#portfolio-row > #portfolio-col-8 > .portfolio-card:hover > img,
+#portfolio-row > #portfolio-col-9 > .portfolio-card:hover > img{
+    scale: 1.2;
+}
+
+
+
+
+
+/* Portfolio card hover-box */
+/* Without Hover */
+#portfolio-row > #portfolio-col-1 > .portfolio-card > .hover-box,
+#portfolio-row > #portfolio-col-2 > .portfolio-card > .hover-box,
+#portfolio-row > #portfolio-col-3 > .portfolio-card > .hover-box,
+#portfolio-row > #portfolio-col-4 > .portfolio-card > .hover-box,
+#portfolio-row > #portfolio-col-5 > .portfolio-card > .hover-box,
+#portfolio-row > #portfolio-col-6 > .portfolio-card > .hover-box,
+#portfolio-row > #portfolio-col-7 > .portfolio-card > .hover-box,
+#portfolio-row > #portfolio-col-8 > .portfolio-card > .hover-box,
+#portfolio-row > #portfolio-col-9 > .portfolio-card > .hover-box{
+    position: absolute;
+    top: -100%;
+    left: 0px;
+    height: 100%;
+    width: 100%;
+    transition: all ease-in-out 0.4s;
+    display: grid;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+    box-shadow: 0px 0px 100px 5px var(--sec-2-color);
+}
+/*HOVER*/
+#portfolio-row > #portfolio-col-1 > .portfolio-card:hover > .hover-box,
+#portfolio-row > #portfolio-col-2 > .portfolio-card:hover > .hover-box,
+#portfolio-row > #portfolio-col-3 > .portfolio-card:hover > .hover-box,
+#portfolio-row > #portfolio-col-4 > .portfolio-card:hover > .hover-box,
+#portfolio-row > #portfolio-col-5 > .portfolio-card:hover > .hover-box,
+#portfolio-row > #portfolio-col-6 > .portfolio-card:hover > .hover-box,
+#portfolio-row > #portfolio-col-7 > .portfolio-card:hover > .hover-box,
+#portfolio-row > #portfolio-col-8 > .portfolio-card:hover > .hover-box,
+#portfolio-row > #portfolio-col-9 > .portfolio-card:hover > .hover-box{
+    top: 0px;
+}
+
+
+
+
+
+/* Portfolio card hover-box .portfolio-background-color*/
+#portfolio-row > #portfolio-col-1 > .portfolio-card > .hover-box > .portfolio-bg-color,
+#portfolio-row > #portfolio-col-2 > .portfolio-card > .hover-box > .portfolio-bg-color,
+#portfolio-row > #portfolio-col-3 > .portfolio-card > .hover-box > .portfolio-bg-color,
+#portfolio-row > #portfolio-col-4 > .portfolio-card > .hover-box > .portfolio-bg-color,
+#portfolio-row > #portfolio-col-5 > .portfolio-card > .hover-box > .portfolio-bg-color,
+#portfolio-row > #portfolio-col-6 > .portfolio-card > .hover-box > .portfolio-bg-color,
+#portfolio-row > #portfolio-col-7 > .portfolio-card > .hover-box > .portfolio-bg-color,
+#portfolio-row > #portfolio-col-8 > .portfolio-card > .hover-box > .portfolio-bg-color,
+#portfolio-row > #portfolio-col-9 > .portfolio-card > .hover-box > .portfolio-bg-color{
+    height: 100%;
+    width: 100%;
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    opacity: 0.8;
+    background-color: var(--sec-2-color);
+}
+
+
+
+
+/* Portfolio card inner Content */
+.hover-box > h3{
+    position: relative;
+    z-index: 2;
+    font-weight: 600;
+    color: #F3F8FA;
+    text-align: center;
+    padding: 5px;
+}
+#portfolio-row #project-heading{
+    text-align: center;
+    color: var(--pri-color);
+    font-weight: 600;
+    margin-bottom: 50px;
+}
+
+@media screen and (max-width: 425px){
+    .hover-box > h3{
+        position: relative;
+        z-index: 2;
+        font-weight: bold;
+        color: #F3F8FA;
+        text-align: center;
+        font-size: 20px;
+    }
+}
+
+
+
+
+
+
+
+/* Responsive Portfolio box */
+@media screen and (max-width : 1172px){
+    #portfolio-row>#portfolio-col-1 .portfolio-card,
+    #portfolio-row>#portfolio-col-2 .portfolio-card,
+    #portfolio-row>#portfolio-col-3 .portfolio-card,
+    #portfolio-row>#portfolio-col-4 .portfolio-card,
+    #portfolio-row>#portfolio-col-5 .portfolio-card,
+    #portfolio-row>#portfolio-col-6 .portfolio-card,
+    #portfolio-row>#portfolio-col-7 .portfolio-card,
+    #portfolio-row>#portfolio-col-8 .portfolio-card,
+    #portfolio-row>#portfolio-col-9 .portfolio-card{
+        width: 300px;
+        height: 200px;
+        border-radius: 5px;
+        overflow: hidden;
+    }
+    #portfolio-row>#portfolio-col-1,
+    #portfolio-row>#portfolio-col-4,
+    #portfolio-row>#portfolio-col-7{
+        justify-content: center;
+    }
+
+    #portfolio-row>#portfolio-col-3,
+    #portfolio-row>#portfolio-col-6,
+    #portfolio-row>#portfolio-col-9{
+        justify-content: center;
+    }
+}
+@media screen and (max-width :  991px){
+    #portfolio-row>#portfolio-col-1 .portfolio-card,
+    #portfolio-row>#portfolio-col-2 .portfolio-card,
+    #portfolio-row>#portfolio-col-3 .portfolio-card,
+    #portfolio-row>#portfolio-col-4 .portfolio-card,
+    #portfolio-row>#portfolio-col-5 .portfolio-card,
+    #portfolio-row>#portfolio-col-6 .portfolio-card,
+    #portfolio-row>#portfolio-col-7 .portfolio-card,
+    #portfolio-row>#portfolio-col-8 .portfolio-card,
+    #portfolio-row>#portfolio-col-9 .portfolio-card{
+        width: 350px;
+        height: 250px;
+        border-radius: 5px;
+        overflow: hidden;
+    } 
+}
+@media screen and (max-width :  800px){
+    #portfolio-row>#portfolio-col-1 .portfolio-card,
+    #portfolio-row>#portfolio-col-2 .portfolio-card,
+    #portfolio-row>#portfolio-col-3 .portfolio-card,
+    #portfolio-row>#portfolio-col-4 .portfolio-card,
+    #portfolio-row>#portfolio-col-5 .portfolio-card,
+    #portfolio-row>#portfolio-col-6 .portfolio-card,
+    #portfolio-row>#portfolio-col-7 .portfolio-card,
+    #portfolio-row>#portfolio-col-8 .portfolio-card,
+    #portfolio-row>#portfolio-col-9 .portfolio-card{
+        width: 100%;
+        height: 100%;
+        border-radius: 5px;
+        overflow: hidden;
+    } 
+}

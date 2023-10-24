@@ -1,0 +1,237 @@
+:root{
+    --pri-color: #0D2735;
+    --sec-color: #85B6CF;
+    --sec-2-color: #1e4356;
+}
+
+
+/* Row 1 Links Color Change */
+.remove-color{
+    color: #fff !important;
+}
+.remove-color:hover{
+    color: var(--sec-color) !important;
+}
+#color-change{
+    color: var(--sec-color) !important;
+}
+
+
+/* ROW 2 */
+#row-2{
+    background-image: url('https://images.unsplash.com/uploads/1413222992504f1b734a6/1928e537?auto=format&fit=crop&q=80&w=1470&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D') !important;
+}
+
+
+
+
+/* CONTAINER CONTACT */
+#container-contact{
+    margin-top: 100px;
+}
+/* Row 3 */
+#contact-row-3{
+    overflow: hidden;
+}
+/* Row 3 COL 1 */
+#contact-row-3 #contact-col-1{
+    padding: 0px;
+}
+/* Row 3 COL 1  inner Row*/
+#contact-row-3 #contact-col-1 #contact-inner-row{
+    margin: 0px;
+    height: 100%;
+}
+/* Row 3 COL 1  inner Row col 1*/
+#contact-row-3 #contact-col-1 #contact-inner-row #inner-col-1,
+#contact-row-3 #contact-col-1 #contact-inner-row #inner-col-2,
+#contact-row-3 #contact-col-1 #contact-inner-row #inner-col-3{
+    padding: 10px;
+}
+
+/* Row 3 COL 1  inner Row col 1 OUR location*/
+#contact-row-3 #contact-col-1 #contact-inner-row #inner-col-1 #our-location-box{
+    display: grid;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+    grid-gap: 10px 0px;
+    background: #fff;
+    box-shadow: 0px 0px 10px 0px lightgray;
+    padding: 10px;
+}
+#contact-row-3 #contact-col-1 #contact-inner-row #inner-col-1 #our-location-box>span{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#contact-row-3 #contact-col-1 #contact-inner-row #inner-col-1 #our-location-box>span svg{
+    border:2px dotted var(--sec-color);
+    padding: 8px;
+    box-sizing: content-box !important;
+    border-radius: 20%;
+}
+#contact-row-3 #contact-col-1 #contact-inner-row #inner-col-1 #our-location-box>span svg path{
+    color: var(--sec-2-color);
+}
+#contact-row-3 #contact-col-1 #contact-inner-row #inner-col-1 #our-location-box h5{
+    text-align: center;
+    color: var(--sec-2-color);
+    font-weight: 600;
+    margin-bottom: 0px;
+} 
+#contact-row-3 #contact-col-1 #contact-inner-row #inner-col-1 #our-location-box p{
+    text-align: center;
+    color: var(--sec-2-color);
+    margin-bottom: 0px;
+} 
+
+
+/* Row 3 COL 1  inner Row col 2 OUR Email*/
+#contact-row-3 #contact-col-1 #contact-inner-row #inner-col-2 #our-Email-box{
+    display: grid;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+    grid-gap: 10px 0px;
+    background: #fff;
+    box-shadow: 0px 0px 10px 0px lightgray;
+    padding: 10px;
+}
+#contact-row-3 #contact-col-1 #contact-inner-row #inner-col-2 #our-Email-box>span{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#contact-row-3 #contact-col-1 #contact-inner-row #inner-col-2 #our-Email-box>span svg{
+    border:2px dotted var(--sec-color);
+    padding: 8px;
+    box-sizing: content-box !important;
+    border-radius: 20%;
+}
+#contact-row-3 #contact-col-1 #contact-inner-row #inner-col-2 #our-Email-box>span svg path{
+    color: var(--sec-2-color);
+}
+#contact-row-3 #contact-col-1 #contact-inner-row #inner-col-2 #our-Email-box h5{
+    text-align: center;
+    color: var(--sec-2-color);
+    font-weight: 600;
+    margin-bottom: 0px;
+} 
+#contact-row-3 #contact-col-1 #contact-inner-row #inner-col-2 #our-Email-box p{
+    text-align: center;
+    color: var(--sec-2-color);
+    margin-bottom: 0px;
+} 
+
+
+
+
+/* Row 3 COL 1  inner Row col 3 OUR Call*/
+#contact-row-3 #contact-col-1 #contact-inner-row #inner-col-3 #our-call-box{
+    display: grid;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+    grid-gap: 10px 0px;
+    background: #fff;
+    box-shadow: 0px 0px 10px 0px lightgray;
+    padding: 10px;
+}
+#contact-row-3 #contact-col-1 #contact-inner-row #inner-col-3 #our-call-box>span{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#contact-row-3 #contact-col-1 #contact-inner-row #inner-col-3 #our-call-box>span svg{
+    border:2px dotted var(--sec-color);
+    padding: 8px;
+    box-sizing: content-box !important;
+    border-radius: 20%;
+}
+#contact-row-3 #contact-col-1 #contact-inner-row #inner-col-3 #our-call-box>span svg path{
+    color: var(--sec-2-color);
+}
+#contact-row-3 #contact-col-1 #contact-inner-row #inner-col-3 #our-call-box h5{
+    text-align: center;
+    color: var(--sec-2-color);
+    font-weight: 600;
+    margin-bottom: 0px;
+} 
+#contact-row-3 #contact-col-1 #contact-inner-row #inner-col-3 #our-call-box p{
+    text-align: center;
+    color: var(--sec-2-color);
+    margin-bottom: 0px;
+} 
+
+
+
+
+
+
+
+
+/* Row 3 COL 2 */
+#contact-row-3 #contact-col-2{
+    padding: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+}
+#contact-row-3 #contact-col-2 form{
+    height: 100%;
+    width: 100%;
+    display: grid;
+    align-items: center;
+    align-content: center;
+    box-shadow: 0px 0px 10px 0px lightgray;
+    padding: 10px;
+}
+#contact-row-3 #contact-col-2 form table{
+    height: 100%;
+    width: 100%;
+}
+#contact-row-3 #contact-col-2 form table tr td{
+    padding: 5px;
+}
+#contact-row-3 #contact-col-2 form table tr td input{
+    height: 40px;
+    width: 100%;
+    padding: 5px;
+    color: #000;
+    outline: none;
+    border: 1px solid var(--sec-color);
+    border-radius: 2px;
+    transition: all ease-in-out 0.2s;
+}
+#contact-row-3 #contact-col-2 form table tr td input:focus{
+    box-shadow: 0px 0px 5px 0px lightgrey;
+}
+#contact-row-3 #contact-col-2 form table tr td textarea{
+    min-height: 30px;
+    max-height: 100px;
+    height: 40px;
+    width: 100%;
+    padding: 5px;
+    color: #000;
+    outline: none;
+    border: 1px solid var(--sec-color);
+    border-radius: 2px;
+    transition: all ease-in-out 0.2s;
+}
+#contact-row-3 #contact-col-2 form table tr td textarea:focus{
+    box-shadow: 0px 0px 5px 0px lightgrey;
+}
+#contact-row-3 #contact-col-2 form table tr td #form-submit-button{
+    width: 50%;
+    margin-left: 25%;
+    border: none;
+    background: #2ecc71;
+    color: #fff;
+    border-radius: 2px;
+    transition: all ease-in-out 0.2s;
+}
+#contact-row-3 #contact-col-2 form table tr td #form-submit-button:hover{
+    background: #27ae60;
+}

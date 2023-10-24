@@ -1,0 +1,120 @@
+:root{
+    --pri-color: #0D2735;
+    --sec-color: #85B6CF;
+    --sec-2-color: #1e4356;
+}
+
+
+/* ============================================= */
+/* Row 1 */
+/* ============================================= */
+#color-change{
+    color: var(--sec-color) !important;
+}
+.remove-color{
+    color: #fff !important;
+}
+
+
+/* ============================================= */
+/* Row 2 */
+/* ============================================= */
+#row-2{
+    background-image: url('https://images.unsplash.com/photo-1682685797208-c741d58c2eff?ixlib=rb-4.0.3&ixid=M3wxMjA3fDF8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1470&q=80') !important;
+}
+
+#row-2 #col-1 #center-side span a{
+    padding: 5px 20px;
+    border-radius: 20px;
+    border: 2px solid var(--sec-color);
+    color: #fff;
+    transition: all ease-in-out 0.2s
+}
+#row-2 #col-1 #center-side span a:hover{
+    background: var(--sec-color);
+}
+
+
+/* ============================================= */
+/* ROW 4 */
+/* ============================================= */
+#happy-chilent-row{
+    padding: 50px 0px;
+}
+#happy-chilent-row #col-1{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    align-content: center;
+    background-color: #F3F8FA;
+    padding: 50px;;
+}
+#happy-chilent-row #col-1 div{
+    display: grid;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+}
+#happy-chilent-row #col-1 div span{
+    color: var(--sec-color);
+    text-align: center;
+    font-size: 40px;
+    font-weight: 500;
+}
+#happy-chilent-row #col-1 div p{
+    color: var(--pri-color);
+    text-align: center;
+    font-size: 13px;
+}
+@media screen and (max-width: 660px){
+    #happy-chilent-row #col-1{
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: unset;
+        align-items: center;
+        align-content: center;
+        background-color: #F3F8FA;
+        padding: 50px 0px;
+    }
+    #happy-chilent-row #col-1 div{
+        width: 50%;
+    }
+    #happy-chilent-row #col-1 div span{
+        color: var(--sec-color);
+        text-align: center;
+        font-size: 30px;
+        font-weight: 500;
+    }
+    #happy-chilent-row #col-1 div p{
+        color: var(--pri-color);
+        text-align: center;
+        font-size: 12px;
+    }
+}
+
+
+/* ============================================= */
+/* Row 5 */
+/* ============================================= */
+#ourskill{
+    padding: 50px 0px;
+}
+/* Row 5 col 1 */
+#ourskill #col-1{
+    padding: 0px 10px;
+}
+#ourskill #col-1 h2{
+    color: var(--pri-color);
+    text-align: center;
+    font-weight: 600;
+}
+#ourskill #col-1 p{
+    text-align: center;
+    color: #000;
+}
+/* Row 5 col 2 */
+#ourskill #col-2{
+    padding: 0px 50px;
+    width: 1280px;
+    margin: auto;
+}
